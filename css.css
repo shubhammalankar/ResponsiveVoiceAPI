@@ -1,0 +1,44 @@
+body {
+	background: #2F414F;
+}
+
+body * {
+	font-family: sans-serif;
+}
+
+input, div {
+	position: absolute;
+	margin: auto;
+	height: 50px;
+	width: 90%;
+	max-width: 30pc; 
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 50px;
+	background: #C7DAD4;
+	outline: none;
+	border: 0;
+	padding: 10px 20px;
+	border-radius: 7px;
+	font-size: 20px;
+	color: #2F414F;
+}
+
+div {
+	height: fit-content;
+	width: fit-content;
+	bottom: -100px;
+	color: #2F414F;
+	background: #3894A3;
+	cursor: pointer;
+}
+
+div:hover {
+	background: #C7DAD4;
+
+}
+
+input::placeholder {
+	color: #2F414F;
+}
